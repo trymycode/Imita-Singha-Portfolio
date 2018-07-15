@@ -1,0 +1,276 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+    /*background-color: #fff;*/
+    line-height: 1.9em;
+    color: #5e6677;
+}
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #E18FDC, rgba(0, 0, 0, 0));
+}
+hr#grey{
+	 border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #8A8795, rgba(0, 0, 0, 0));
+
+}
+
+#brandlogo {
+	width: 35px;
+	float: left;
+	padding: 16px 0 0 36px;
+}
+
+nav {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    height: 65px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+#menu-icon {
+	text-decoration: none;
+	float: right;
+	font-size: 35px;
+	font-weight: 300;
+	margin: 20px;
+	color: #5e6677;
+}
+
+#menu-icon:hover {
+	color: #E18FDC;
+}
+#nav-right {
+	display: none;
+}
+header {
+	/*margin: 2em auto;*/
+	text-align: center;
+	letter-spacing: 1.7px;
+
+}
+header h1, header h2, #pro-logo {
+    margin: 1em auto;
+    font-weight: normal;
+}
+
+header h4{
+	margin: 1em auto 0 auto;
+	font-weight: normal;
+}
+#title h1 {
+	 margin-top: 100px;
+    font-size: 2.8em;
+    line-height: 1em;
+}
+
+#title h2 {
+			
+			font-size: 1.6em;
+			/*color: #E18FDC;*/
+			color: #A85BA4;
+		}
+
+#pro-logo {
+    width:57%;
+    border-radius: 50%;
+    /*border: 5px solid #5E6677;*/
+    -webkit-box-shadow: 3px 2px 3px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 2px 3px 1px rgba(0,0,0,0.75);
+	box-shadow: 3px 2px 3px 1px rgba(0,0,0,0.75);
+
+}
+/*End  Header*/
+
+.bcolor{
+	width: 100%;
+	background-color: rgba(255, 198, 255, 0.4);
+}
+
+#aboutMe {
+	margin: 1em  auto 0 auto;
+	width: 90%;
+	margin-bottom: 4em;
+
+}
+
+h2 {
+
+		text-align: center;
+		margin-bottom: 1em;
+	    font-size: 1.9em;
+	    font-weight: 600;
+}
+
+#mainpara p {
+	margin-bottom: 3em;
+	text-align: justify;
+	 font-size: 1.1em;
+}
+
+
+
+
+
+#skills h3{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5em;
+	
+
+}
+
+#tech {
+	margin: 0 auto;
+	width: 90%;
+}
+#tech h4{
+	font-weight: 400;
+	 text-align: center;
+     font-size: 1.3em;
+     color: #E18FDC;
+}
+
+
+#tech p {
+
+	margin: 0 auto 2em auto;
+	text-align: justify;
+	font-size: 1.2em;
+	margin-bottom: 2em;
+}
+
+#tools {
+	margin-top: 2em;
+	width: 90%;
+	margin-bottom: 6em;
+	
+}
+
+#tools h4 {
+	 margin: 0 auto;
+	 padding-left: 30px;
+	 font-weight: 400;
+	 text-align: center;
+     font-size: 1.7em;
+     color: #E18FDC;
+}
+
+#tools ul li {
+	text-align: center;
+	list-style: none;
+	margin:  0 auto;
+	font-size: 1.3em;
+}
+
+
+/*End about Me*/
+
+/*Start Portflio*/
+
+#portfolio {
+	width: 90%;
+	margin: 2em auto 2em auto;
+}
+
+#portfolio p {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 1em;
+	font-size: 1.1em;
+}
+
+main .container{
+
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 3em;
+}
+
+.effect img {
+    transition: all 0.5s ease;
+    opacity: 0.1;
+    z-index: -1;
+}
+.pro-title {
+	 position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    transition: all 0.5s ease;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 70%;
+    text-align: center;
+}
+.effect {
+	position: relative;
+	width: 90%;
+	padding: 1em;
+	box-sizing: border-box;
+	margin-top: 1em;
+	background-color: rgba(255, 198, 255, 0.3);
+	border-radius: 8px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.effect:hover img {
+    opacity: 1;
+}
+
+.effect:hover .proj-title {
+    opacity: 0;
+}
+
+
+main .container img {
+	width: 100%;
+
+}
+
+
+
+/*End portfolio section and start footer*/
+ footer {
+    margin: 1em auto 4em auto;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 100;
+    background-color: #fff;
+    color: #E18FDC;
+}
+
+footer #social {
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 2.5em auto;
+
+	 
+}
+
+#social a {
+	width: 15%;
+}
+
+#social a img {
+	width: 75%;
+	opacity: 0.7;
+
+}
