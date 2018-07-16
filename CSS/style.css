@@ -56,12 +56,13 @@ nav {
 	display: none;
 }
 header {
-	/*margin: 2em auto;*/
+	
 	text-align: center;
 	letter-spacing: 1.7px;
 
 }
 header h1, header h2, #pro-logo {
+
     margin: 1em auto;
     font-weight: normal;
 }
@@ -84,22 +85,21 @@ header h4{
 		}
 
 #pro-logo {
+
     width:57%;
     border-radius: 50%;
-    /*border: 5px solid #5E6677;*/
-    -webkit-box-shadow: 3px 2px 3px 3px rgba(0,0,0,0.75);
-	-moz-box-shadow: 3px 2px 3px 3px rgba(0,0,0,0.75);
-	box-shadow: 3px 2px 3px 3px rgba(0,0,0,0.75);
-
+    border: 5px solid #E18FDC;
 }
 /*End  Header*/
 
 .bcolor{
+
 	width: 100%;
 	background-color: rgba(255, 198, 255, 0.4);
 }
 
 #aboutMe {
+
 	margin: 1em  auto 0 auto;
 	width: 90%;
 	margin-bottom: 4em;
