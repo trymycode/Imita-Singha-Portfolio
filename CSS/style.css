@@ -9,80 +9,98 @@ html {
 }
 
 body {
-    /*background-color: #fff;*/
+
     line-height: 1.9em;
-    color: #5e6677;
+    color: #5E6677;
 }
+
 hr {
+
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #E18FDC, rgba(0, 0, 0, 0));
-}
-hr#grey{
-	 border: 0;
-    height: 2px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #8A8795, rgba(0, 0, 0, 0));
+  }
 
-}
+hr#grey {
+
+		 border: 0;
+	     height: 2px;
+	     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #8A8795, rgba(0, 0, 0, 0));
+
+    	}
 
 #brandlogo {
-	width: 40px;
-	float: left;
-	padding: 16px 0 0 36px;
-}
+
+		width: 40px;
+		float: left;
+		padding: 16px 0 0 36px;
+
+		}
+  /*Navigation*/
 
 nav {
+
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     height: 65px;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 2;
-}
+    z-index: 10;
+
+  }
 #menu-icon {
-	text-decoration: none;
-	float: right;
-	font-size: 35px;
-	font-weight: 300;
-	margin: 20px;
-	color: #5e6677;
-}
+
+			text-decoration: none;
+			float: right;
+			font-size: 35px;
+			font-weight: 300;
+			margin: 20px;
+			color: #5e6677;
+
+         }
 
 #menu-icon:hover {
 	color: #E18FDC;
+
 }
 #nav-right {
 	display: none;
 }
+
+/*End Navigation and start Header*/
+
 header {
 	
-	text-align: center;
-	letter-spacing: 1.7px;
+		text-align: center;
+		letter-spacing: 1.7px;
 
-}
+     }
+
 header h1, header h2, #pro-logo {
 
-    margin: 1em auto;
-    font-weight: normal;
-}
+	    margin: 1em auto;
+	    font-weight: normal;
 
-header h4{
-	margin: 1em auto 0 auto;
-	font-weight: normal;
-}
+		}
+
+header h4 {
+			margin: 1em auto 0 auto;
+			font-weight: normal;
+        }
+
 #title h1 {
-	 margin-top: 100px;
-    font-size: 2.8em;
-    line-height: 1em;
-}
+		    margin-top: 100px;
+    		font-size: 2.8em;
+    		line-height: 1em;
+		  }
 
 #title h2 {
 			
 			font-size: 1.6em;
 			/*color: #E18FDC;*/
 			color: #A85BA4;
-		}
+		 }
 
 #pro-logo {
 
@@ -90,7 +108,8 @@ header h4{
     border-radius: 50%;
     border: 5px solid #E18FDC;
 }
-/*End  Header*/
+
+/*End  Header and start About me*/
 
 .bcolor{
 
@@ -100,48 +119,48 @@ header h4{
 
 #aboutMe {
 
-	margin: 1em  auto 0 auto;
+	margin: 1em  auto 1em auto;
 	width: 90%;
 	margin-bottom: 4em;
 
 }
 
 h2 {
+	text-align: center;
+	margin-bottom: 1em;
+	font-size: 1.9em;
+	font-weight: 600;
 
-		text-align: center;
-		margin-bottom: 1em;
-	    font-size: 1.9em;
-	    font-weight: 600;
-}
+   }
 
 #mainpara p {
 	margin-bottom: 3em;
 	text-align: justify;
 	 font-size: 1.1em;
 }
-
-
-
-
-
-#skills h3{
+#tskills {
+	font-size: 1.5em;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 1.5em;
-	
-
+	font-weight: normal;
+}
+#skills h3 {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5em;	
 }
 
 #tech {
 	margin: 0 auto;
 	width: 90%;
 }
-#tech h4{
-	font-weight: 400;
+#tech h4 {
+
+	 font-weight: 400;
 	 text-align: center;
      font-size: 1.3em;
      color: #E18FDC;
-}
+  }
 
 
 #tech p {
@@ -152,7 +171,7 @@ h2 {
 	margin-bottom: 2em;
 }
 
-#tools {
+#tools { 
 	margin-top: 2em;
 	width: 90%;
 	margin-bottom: 6em;
@@ -176,9 +195,9 @@ h2 {
 }
 
 
-/*End about Me*/
+/*End About Me and start Portflio*/
 
-/*Start Portflio*/
+
 
 #portfolio {
 	width: 90%;
@@ -189,15 +208,27 @@ h2 {
 	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 1em;
-	font-size: 1.1em;
+	font-size: 1.3em;
+	width: 90%;
 }
-
-main .container{
-
-	justify-content: center;
+#wrapper {
+	width: 95%;
+	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 3em;
+	justify-content: center;
+
+}
+main .container{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	text-align: center;
+}
+#wub {
+	order: 10;
 }
 
 .effect img {
@@ -214,8 +245,8 @@ main .container{
     transition: all 0.5s ease;
     color: rgba(0, 0, 0, 0.7);
     font-weight: bold;
-    font-size: 1.5em;
-    width: 70%;
+    font-size: 1.3em;
+    width: 80%;
     text-align: center;
 }
 .effect {
@@ -274,3 +305,674 @@ footer #social {
 	opacity: 0.7;
 
 }
+
+
+/*Media Quaries*/
+@media screen and (min-width: 541px) {
+
+
+	#brandlogo {
+
+		width: 48px;
+		padding: 20px 20px 30px 20px;
+		opacity: 0.7;
+
+		}
+
+	 #nav-right {
+			margin-top: 30px;
+	        display: block;
+	        float : right;
+       }
+
+    #nav-right  a {
+    	text-decoration: none;
+    	padding: 0 20px;
+    	font-size: 1em;
+    	color: #E18FDC;
+    	font-weight: 100px;
+    } 
+
+    #nav-right a:hover {
+
+    	color:  #BEB8AD;
+    	
+    }	
+
+	/*Navigation*/
+
+	nav {
+
+			height: 80px;
+	 	}
+
+	#menu-icon {
+
+				display: none;
+          }
+
+	/*Header*/
+
+header h4 {
+			margin: 1em auto 0 auto;
+			font-weight: normal;
+        }
+
+#title h1 {
+		    margin-top: 130px;
+		  }
+
+#title h2 {
+			margin-top: 30px;
+			font-size: 1.4em;
+			
+		}
+
+#pro-logo {
+
+    width:35%;
+   }
+
+   /*End  Header and start About me*/
+
+.bcolor{
+
+	width: 100%;
+	background-color: rgba(255, 198, 255, 0.3);
+}
+
+#aboutMe {
+
+	margin: 1em  auto 0 auto;
+	width: 90%;
+	margin-bottom: 4em;
+
+}
+
+h2 {
+	margin-bottom: 10px;
+	font-weight: 400;
+
+   }
+
+#mainpara p {
+	margin-bottom: 2em;
+	 font-size: 1em;
+	 opacity: 0.8;
+}
+
+#skills h3{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 300;	
+}
+
+#tech h4 {
+
+	 font-weight: 300;
+     font-size: 1.2em;
+  }
+
+
+#tech p {
+
+	margin: 0 auto 2em auto;
+	text-align: justify;
+	font-size: 1.2em;
+	
+}
+
+#tools {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	
+}
+
+#tools h4 {
+	 margin: 0 auto;
+	 padding-left: 30px;
+	 font-weight: 400;
+	 text-align: center;
+     font-size: 1.5em;
+     color: #E18FDC;
+}
+
+#tools ul li {
+	text-align: center;
+	list-style: none;
+	margin:  0 auto;
+	font-size: 1.2em;
+}
+
+/*End About Me and start Portflio*/
+
+
+#wrapper {
+	width: 95%;
+	margin: 2em auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+main .container{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	width: 45%;
+	text-align: center;
+}
+
+.effect img {
+    transition: all 0.5s ease;
+    opacity: 0.1;
+    z-index: -1;
+}
+.pro-title {
+	 position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    transition: all 0.5s ease;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 1em;
+    width: 80%;
+    text-align: center;
+}
+.effect {
+	position: relative;
+	width: 100%;
+	padding: 1em;
+	box-sizing: border-box;
+	margin-top: 1em;
+	background-color: rgba(255, 198, 255, 0.3);
+	border-radius: 4px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+}
+
+ /* FOOTER */
+
+   #social a img {
+        width: 70%;
+    }  
+
+}
+
+@media screen and (min-width: 641px) {
+
+
+		#brandlogo{
+			margin-left: 40px;
+			width: 50px;
+		}
+
+
+		#nav-right{
+			margin-right: 40px;
+		}
+
+	   header {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 100px;
+        width: 92%;
+        text-align: right;
+	 
+    }
+
+
+
+		header h4 {
+					
+					font-weight: 300;
+					margin-bottom: 4em;
+		        }
+
+		#title h1 {
+					
+				    margin-top: 70px;
+		    		font-size: 3.3em;
+		    		line-height: 1em;
+		    		
+				  }
+
+		#title h2 {
+					
+					font-size: 1.5em;
+					margin-top: 2.5em;
+					color: #A85BA4;
+					font-weight: 500;
+					margin-left: 30px;
+					margin-bottom: 1em;
+				 }
+
+		#pro-logo {
+			margin-top: 45px;
+			margin-left: 2em;
+		    width: 47%;
+		    border-radius: 50%;
+		    order: -1;
+		    margin-bottom: 4em;
+		}
+
+
+
+}
+
+@media screen and (min-width: 801px) {
+	nav {
+		margin: 0 auto;
+	}
+	#brandlogo{
+		margin-left: 60px;
+		width: 57px;
+		margin-top: -0.4em;
+		
+	}
+	
+		#nav-right {
+		margin-right: 100px;
+	}
+
+	#nav-right a {
+		font-size: 1.3em;
+		margin-left: 1em;
+		font-weight: 100;
+
+
+	}
+
+
+
+
+
+
+    header {
+        margin: 100px auto 50px auto;
+		display: flex;
+		justify-content: space-around;
+       
+    }
+    
+    #pro-logo {
+    	width: 30%;
+    	margin: 70px 30px 30px 10px;
+    }
+	#title {
+		padding-top: 60px;
+	}
+    #title h1 {
+		font-size: 3.8em;
+    }
+    #title h2 {
+    	font-size: 2.5em;
+    }
+    #title h4 {
+    	font-size: 1.4em;
+    }
+
+/*AboutMe*/
+
+
+.bcolor{
+
+	width: 100%;
+	background-color: rgba(255, 198, 255, 0.3);
+}
+
+#aboutMe {
+
+	margin: 3em auto 2em auto;
+	width: 90%;
+	
+
+}
+#mainpara {
+	margin: 0 auto;
+	width: 70%;
+
+}
+    header {
+        margin-top: 100px;
+        align-content: stretch;
+        justify-content: space-around;
+    }
+    h2{
+    	font-size: 2.3em;
+    	margin-bottom: 1em;
+    }
+
+
+#skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+	align-items: stretch;
+	width: 80%;
+	margin: 0 auto;
+
+	
+}
+
+#tskills {
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+}
+
+#tech {
+	margin: 0 auto;
+	width: 45%;
+}
+#tskills {
+	font-size: 1.5em;
+	
+}
+#tech h4 {
+
+	 font-weight: 400;
+	 text-align: center;
+     font-size: 1.7em;
+     color: #E18FDC;
+  }
+
+
+#tech p {
+
+	margin: 0 auto 2em auto;
+	text-align: center;
+	font-size: 1.3em;
+	margin-bottom: 2em;
+}
+
+#tools { 
+	margin-top: 2em;
+	width: 45%;
+	margin-bottom: 6em;
+
+	
+}
+
+#tools h4 {
+	 margin: 0 auto;
+	 padding-left: 30px;
+	 text-align: center;
+     font-size: 1.7em;
+     
+}
+#tools ul li {
+	font-size: 1.3em;
+}
+
+
+    /*portfolio*/
+	#wrapper {
+	width: 95%;
+	margin: 2em auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+main .container{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	width: 30%;
+	text-align: center;
+}
+
+.effect img {
+    transition: all 0.5s ease;
+    opacity: 0.1;
+    z-index: -1;
+}
+.pro-title {
+	 position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    transition: all 0.5s ease;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 1em;
+    width: 80%;
+    text-align: center;
+}
+.effect {
+	position: relative;
+	width: 100%;
+	padding: 1em;
+	box-sizing: border-box;
+	margin-top: 1em;
+	background-color: rgba(255, 198, 255, 0.3);
+	border-radius: 4px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+/*Footer*/
+
+ footer {
+   margin-top: 2em;
+    font-size: 1em;
+    font-weight: thin;
+   
+}
+
+footer #social {
+	width: 75%;
+	margin: 2.5em auto;	 
+}
+
+#social a {
+	width: 15%;
+}
+
+#social a img {
+	width: 50%;
+	opacity: 0.6;
+
+}
+
+
+} 
+
+
+@media screen and (min-width: 1601px) {
+	nav {
+		margin: 0 auto;
+		height: 82px;
+	}
+  	#brandlogo{
+		margin-left: 100px;
+		width: 65px;
+		margin-top: -0.4em;
+		
+	}
+
+	#nav-right {
+		margin-right: 100px;
+	}
+
+	#nav-right a {
+		font-size: 1.8em;
+		margin-left: 1em;
+		font-weight: 200;
+
+
+	}
+    header {
+        margin: 100px auto 50px auto;
+		display: flex;
+		justify-content: space-around;
+       
+    }
+    
+    #pro-logo {
+    	width: 30%;
+    	margin: 70px 30px 30px 10px;
+    }
+	#title {
+		padding-top: 60px;
+	}
+    #title h1 {
+		font-size: 5em;
+    }
+    #title h2 {
+    	font-size: 2.5em;
+    }
+    #title h4 {
+    	font-size: 1.4em;
+    }
+
+
+
+.bcolor{
+
+	width: 100%;
+	background-color: rgba(255, 198, 255, 0.3);
+}
+
+#aboutMe {
+
+	margin: 4em auto;
+	width: 90%;
+	
+
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 1em;
+	font-size: 2.6em;
+	font-weight: 400;
+
+   }
+
+#mainpara p {
+	margin: 0 auto;
+	text-align: justify;
+	font-size: 1.3em;
+	 width:80%;
+	 padding-bottom: 50px;
+}
+#skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+	align-items: stretch;
+	width: 80%;
+	margin: 0 auto;
+	
+}
+#skills h3 {
+	display: none;
+
+}
+
+#tech {
+	margin: 0 auto;
+	width: 45%;
+}
+#tskills {
+	font-size: 1.6em;
+	
+}
+#tech h4 {
+
+	 font-weight: 400;
+	 text-align: center;
+     font-size: 1.9em;
+     color: #E18FDC;
+  }
+
+
+#tech p {
+
+	margin: 0 auto 2em auto;
+	text-align: center;
+	font-size: 1.3em;
+	margin-bottom: 2em;
+}
+
+#tools { 
+	margin-top: 2em;
+	width: 45%;
+	margin-bottom: 6em;
+	
+}
+
+#tools h4 {
+	 margin: 0 auto;
+	 padding-left: 30px;
+	 
+	 text-align: center;
+     font-size: 1.8em;
+     
+}
+#tools ul li {
+	font-size: 1.4em;
+}
+
+
+/*End About Me and start Portflio*/
+
+#portfolio .pro-title {
+	font-size: 1.5em;
+}
+
+/*Footer*/
+
+ footer {
+   margin-top: 2em;
+    font-size: 1.3em;
+    font-weight: 100;
+   
+}
+
+footer #social {
+	width: 75%;
+	margin: 2.5em auto;	 
+}
+
+#social a {
+	width: 15%;
+}
+
+#social a img {
+	width: 50%;
+	opacity: 0.7;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
